@@ -9,12 +9,13 @@ namespace GitDemo
             int i = 23;
             if (i % 2 == 0)
             {
-                Console.WriteLine("the given number is even");
+                Console.WriteLine(i+"the number is even");
+
 
             }
             else
             {
-                Console.WriteLine("the given number is odd");
+                Console.WriteLine(i+"the number is odd");
             }
         }
     }
